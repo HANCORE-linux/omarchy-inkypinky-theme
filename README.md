@@ -26,22 +26,8 @@ omarchy-theme-install https://github.com/HANCORE-linux/omarchy-inkypinky-theme.g
 ## Vesktop-Theme
 For Vesktop users, you can install this theme by copying (usally from ~/Downloads) the theme file to your Vesktop themes directory:
 ```bash
-cp system24-whitegold.theme.css ~/.config/vesktop/themes/system24-whitegold.theme.css
+cp vencord.theme.inkypinky.css ~/.config/vesktop/themes/vencord.theme.inkypinky.css
 ```
-
-## Neovim-Theme
-- Using https://github.com/bjarneo Pixel Theme which use the colors from terminal syntax <br>
-- Check https://github.com/bjarneo/pixel.nvim <br>
-- Make sure Lazyvim is update to date type :Lazy <br>
-
-## VSCode-Theme
-- Using Theme: "Gold Standard" light mode
-- Using Extension-ID: "wxlfe.gold-standard"
-- If Theme is not getting installed , do it manually: Open VSCode > Click on Extensions > type: Gold Standard
-
-## Superfile Support
-- created a Theme for superfile
-- copy whitegold.toml to ~/.config/superfile/theme/ and edit in your config.toml  the line to ``` theme = 'whitegold' ```
 
 ## Waybar-Theme
 For my Waybar-Theme simply check my Link https://github.com/HANCORE-linux/Waybar-Theme-red-accents-.git
