@@ -1,0 +1,22 @@
+@define-color selected-text #d18ba2;
+@define-color text #c8c8c8;
+@define-color base #13131D;
+@define-color border #9f859f;
+@define-color foreground #c8c8c8;
+@define-color background #13131D;
+
+
+@define-color hover #9f859f;
+
+
+window .search-container,
+window .search {
+  background: alpha(@hover, 0.3);
+  color: @foreground;
+  border: 1px solid alpha(@border, 0.5);
+  border-radius: 12px;
+  padding: 8px 12px;
+  margin: 4px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
