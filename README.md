@@ -5,6 +5,7 @@ Smooth, bright, and uplifting, InkyPinky makes your dashboard feel fresh, friend
 
 # Screenshots
 <img width="2560" height="1440" alt="screenshot-2025-10-25_12-14-17" src="https://github.com/user-attachments/assets/071a0f2d-a28e-4b21-9439-00fa19ac81c4" />
+<img width="2560" height="1440" alt="screenshot-2025-11-02_00-29-13" src="https://github.com/user-attachments/assets/973df9a0-db99-4896-a8a6-4dfabd16d511" />
 
 
 
