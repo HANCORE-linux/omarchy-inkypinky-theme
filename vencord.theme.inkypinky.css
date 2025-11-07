@@ -27,3 +27,16 @@
     --color14: #d2d7e3;
     --color15: #c8c8c8;
 }
+
+[class*="sidebar"]::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 1px;
+  background: rgba(255,255,255,0.05);
+  transform: scaleX(0.5);
+  transform-origin: right;
+  pointer-events: none;
+}
