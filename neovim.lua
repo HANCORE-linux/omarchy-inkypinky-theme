@@ -8,17 +8,17 @@ return {
 			colors = {
 				-- Monotone shades (base00-base07)
 				base00 = "#13131D", -- Default background
-				base01 = "#434353", -- Lighter background (status bars)
+				base01 = "#acacac", -- Lighter background (status bars)
 				base02 = "#13131D", -- Selection background
-				base03 = "#eac4cf", -- Comments, invisibles
+				base03 = "#585864", -- Comments, invisibles
 				base04 = "#f1d8df", -- Dark foreground
-				base05 = "#c8c8c8", -- Default foreground
-				base06 = "#c8c8c8", -- Light foreground
+				base05 = "#c1acbd", -- Default foreground
+				base06 = "#c6a7ae", -- Light foreground
 				base07 = "#a1a2a7", -- Light background
 
 				-- Accent colors (base08-base0F)
 				base08 = "#EA90A8", -- Variables, errors, red
-				base09 = "#eee4e2", -- Integers, constants, orange
+				base09 = "#b0c4de", -- Integers, constants, orange
 				base0A = "#D18BA2", -- Classes, types, yellow
 				base0B = "#a6b2c7", -- Strings, green
 				base0C = "#919ab7", -- Support, regex, cyan
