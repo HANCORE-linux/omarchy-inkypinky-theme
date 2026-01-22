@@ -20,7 +20,7 @@ window:backdrop {
 window:not(:backdrop) #container,
 window:backdrop #container {
     border: 2px solid @border-color;
-    border-radius: 3px;
+    border-radius: 4px;
     background-color: @background-color;
     padding: 12px;
     background-clip: padding-box;
