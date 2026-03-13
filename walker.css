@@ -1,5 +1,5 @@
 @define-color selected-text #d18ba2;
-@define-color text #c8c8c8;
+@define-color text #fafafa;
 @define-color base #13131D;
 @define-color border #9f859f;
 @define-color foreground #c8c8c8;
@@ -43,7 +43,7 @@ window .search-container {
     border-radius: 3px;
     padding: 4px 6px;
     margin: 0x;
-    background: alpha(@border, 0.65);            /* slightly transparent */
+    background: alpha(@border, 0.8);            /* slightly transparent */
     box-shadow: inset 0 0 6px alpha(white, 0.0);
     backdrop-filter: blur(1px);
     line-height: 1em;
