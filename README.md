@@ -28,7 +28,7 @@ cp vencord.theme.inkypinky.css ~/.config/vesktop/themes/vencord.theme.inkypinky.
 ```
 
 ## Waybar-Theme
-For my Waybar-Theme simply check my Link https://github.com/HANCORE-linux/Waybar-Theme-red-accents-.git
+For my Waybar-Theme simply check my [Link](https://github.com/HANCORE-linux/waybar-themes) 
 
 ### License
 MIT
