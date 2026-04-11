@@ -39,20 +39,29 @@ window .box-wrapper {
 }
 
 window .search-container {
-    border: 2px solid alpha(@border, 0.2);    /* visible border */
+    border: 2px solid alpha(#434353, 0.8);    /* visible border */
     border-radius: 3px;
     padding: 4px 6px;
     margin: 0x;
-    background: alpha(@border, 0.8);            /* slightly transparent */
+    background: alpha(@border, 1);            /* slightly transparent */
     box-shadow: inset 0 0 6px alpha(white, 0.0);
     backdrop-filter: blur(1px);
     line-height: 1em;
 }
 
 
-window .input {
+window .search-container .placeholder,
+window .search-container entry placeholder {
+  color: @base;
+  opacity: 1;
+}
+
+window .search-container text,
+window .input { 
     background: transparent;
-    color: @text;
+    padding: 0px 0px;
+    color: @base;
+    caret-color: #434353;
 }
 
 window .preview {

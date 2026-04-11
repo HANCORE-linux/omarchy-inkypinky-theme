@@ -1,44 +1,36 @@
 return {
 	{
-		"bjarneo/aether.nvim",
-		name = "aether",
+		"catppuccin/nvim",
+		lazy = false,
+		name = "catppuccin",
 		priority = 1000,
-		opts = {
-			disable_italics = false,
-			colors = {
-				-- Monotone shades (base00-base07)
-				base00 = "#13131D", -- Default background
-				base01 = "#acacac", -- Lighter background (status bars)
-				base02 = "#13131D", -- Selection background
-				base03 = "#585864", -- Comments, invisibles
-				base04 = "#f1d8df", -- Dark foreground
-				base05 = "#c1acbd", -- Default foreground
-				base06 = "#c6a7ae", -- Light foreground
-				base07 = "#a1a2a7", -- Light background
-
-				-- Accent colors (base08-base0F)
-				base08 = "#EA90A8", -- Variables, errors, red
-				base09 = "#b0c4de", -- Integers, constants, orange
-				base0A = "#D18BA2", -- Classes, types, yellow
-				base0B = "#a6b2c7", -- Strings, green
-				base0C = "#919ab7", -- Support, regex, cyan
-				base0D = "#7c7ca8", -- Functions, keywords, blue
-				base0E = "#9f859f", -- Keywords, storage, magenta
-				base0F = "#e3aebf", -- Deprecated, brown/yellow
-			},
-		},
-		config = function(_, opts)
-			require("aether").setup(opts)
-			vim.cmd.colorscheme("aether")
-
-			-- Enable hot reload
-			require("aether.hotreload").setup()
+		config = function()
+			require("catppuccin").setup({
+				custom_highlights = function(colors)
+					return {
+						WinSeparator = { fg = colors.overlay1 },
+						BlinkCmpDocBorder = { fg = colors.blue },
+						BlinkCmpKind = { fg = colors.blue },
+						BlinkCmpMenu = { fg = colors.text },
+						BlinkCmpMenuBorder = { fg = colors.blue, bg = colors.base },
+						BlinkCmpSignatureHelpActiveParameter = { fg = colors.mauve },
+						BlinkCmpSignatureHelpBorder = { fg = colors.blue },
+					}
+				end,
+				floating_border = "on",
+				integrations = {
+					blink_cmp = true,
+				},
+				color_overrides = {
+					mocha = {
+						base = "#13131D",
+						mantle = "#13131D",
+						-- crust = "#000000",
+					},
+				},
+				transparent_background = true,
+			})
+			vim.cmd.colorscheme("catppuccin-nvim")
 		end,
-	},
-	{
-		"LazyVim/LazyVim",
-		opts = {
-			colorscheme = "aether",
-		},
 	},
 }
