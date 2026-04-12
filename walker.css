@@ -39,7 +39,7 @@ window .box-wrapper {
 }
 
 window .search-container {
-    border: 2px solid alpha(#434353, 0.8);    /* visible border */
+    border: 2px solid alpha(#434353, 0.5);    /* visible border */
     border-radius: 3px;
     padding: 4px 6px;
     margin: 0x;
