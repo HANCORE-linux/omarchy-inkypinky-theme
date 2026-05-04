@@ -75,3 +75,7 @@ window .preview {
     backdrop-filter: blur(8px);
     line-height: 1em;
 }
+
+child:selected .item-box {
+background-color: @base;
+}
