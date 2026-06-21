@@ -20,11 +20,11 @@ omarchy-theme-install https://github.com/HANCORE-linux/omarchy-inkypinky-theme.g
 <img width="2560" height="1440" alt="screenshot-2025-12-11_15-46-45" src="https://github.com/user-attachments/assets/8f9bead0-3eb0-48c7-a496-d2688062189a" />
 <img width="2560" height="1440" alt="screenshot-2026-04-11_22-26-45" src="https://github.com/user-attachments/assets/c76cf8e0-9d26-464f-8f8f-6f1c77461241" />
 
-#### Recommendations for 3rd-Party App Theming
-Using Bypass Theme-Hook script for GTK, Vesktop, Steam, Spotify etc [LINK](https://github.com/imbypass/omarchy-theme-hook)
-
 #### Waybar
 [LINK](https://github.com/HANCORE-linux/waybar-themes)
+
+#### Theme-Hook-Manager
+[Link](https://github.com/OldJobobo/theme-hook-plugin-manager)
 
 ### License
 MIT
