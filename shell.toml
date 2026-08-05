@@ -1,0 +1,148 @@
+# Omarchy Quattro surfaces for InkyPinky.
+# The shell keeps the original ink background, mauve frame, and layered pink
+# accents while all legacy application theme files remain installed.
+
+[bar]
+background = "#13131D"
+background-alpha = 1.0
+text = "#FAFAFA"
+active = "#EA90A8"
+scale-with-font = true
+size-horizontal = 26
+size-vertical = 28
+
+[hyprland]
+active-border = "rgba(b57b97ee) rgba(7c7ca8ee) 45deg"
+active-border-foreground = "#B57B97"
+
+[controls]
+normal-color = "#C8C8C8"
+normal-fill-alpha = 0.04
+normal-border-width = 1
+normal-border-alpha = 0.30
+
+hover-cursor-color = "#BCBCD4"
+hover-cursor-fill-alpha = 0.10
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.48
+
+focus-color = "#D18BA2"
+focus-fill-alpha = 0.12
+focus-border-width = 1
+focus-border-alpha = 0.84
+
+selected-color = "#9F859F"
+selected-fill-alpha = 0.22
+selected-border-width = 1
+selected-border-alpha = 0.62
+
+pressed-color = "#EA90A8"
+pressed-fill-alpha = 0.24
+selection-color = "#7C7CA8"
+selection-fill-alpha = 0.36
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+xs = 2
+md = 4
+control-padding-y = 5
+panel-padding = 10
+
+[font]
+base-size = 12
+heading = 16
+icon-large = 18
+
+[popups]
+background = "#13131D"
+background-alpha = 0.96
+text = "#D18BA2"
+border = "hyprland.active-border"
+border-alpha = 1.0
+border-width = 2
+
+[tooltip]
+background = "#13131D"
+background-alpha = 0.96
+text = "#C8C8C8"
+border = "#9F859F"
+border-alpha = 1.0
+border-width = 1
+
+[notifications]
+background = "#13131D"
+background-alpha = 0.96
+text = "#C8C8C8"
+border = "hyprland.active-border"
+border-alpha = 1.0
+border-width = 2
+countdown = "#EA90A8"
+
+[launcher]
+background = "#13131D"
+background-alpha = 0.96
+text = "#FAFAFA"
+border = "hyprland.active-border"
+border-alpha = 1.0
+border-width = 2
+scrim = "#13131D"
+scrim-alpha = 0.0
+selected-background = "#9F859F"
+selected-background-alpha = 0.30
+selected-text = "#F6BFCE"
+selected-border = "#D18BA2"
+selected-border-alpha = 0.94
+selected-border-width = 1
+
+[menu]
+background = "#13131D"
+background-alpha = 0.96
+text = "#FAFAFA"
+border = "hyprland.active-border"
+border-alpha = 1.0
+border-width = 2
+scrim = "#13131D"
+scrim-alpha = 0.0
+selected-background = "#9F859F"
+selected-background-alpha = 0.30
+selected-text = "#F6BFCE"
+selected-border = "#D18BA2"
+selected-border-alpha = 0.94
+selected-border-width = 1
+
+[polkit]
+background = "#13131D"
+background-alpha = 0.96
+text = "#C8C8C8"
+text-error = "#EA90A8"
+border = "hyprland.active-border"
+border-error = "#EA90A8"
+border-alpha = 1.0
+border-width = 2
+scrim = "#13131D"
+scrim-alpha = 0.5
+accent = "#7C7CA8"
+
+[lock]
+background = "#13131D"
+background-alpha = 0.72
+text = "#C8C8C8"
+placeholder = "#C8C8C8B3"
+text-error = "#EA90A8"
+border = "hyprland.active-border"
+border-active = "hyprland.active-border"
+border-error = "#EA90A8"
+border-alpha = 1.0
+border-width = 2
+selection = "#7C7CA8"
+selection-alpha = 0.45
+
+[image-picker]
+scrim = "#13131D"
+scrim-alpha = 0.5
+text = "#C8C8C8"
+selected-border = "#EA90A8"
+selected-border-alpha = 1.0
+unselected-border = "#9F859F"
+unselected-border-alpha = 0.34

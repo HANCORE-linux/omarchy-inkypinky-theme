@@ -2,7 +2,7 @@
 -- Source: hyprland.conf
 
 local activeBorderColor = {
-  colors = { "rgba(b57b97ee)", "rgba(13131dee)" },
+  colors = { "rgba(b57b97ee)", "rgba(7c7ca8ee)" },
   angle = 45,
 }
 
